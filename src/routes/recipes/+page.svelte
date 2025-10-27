@@ -1,4 +1,4 @@
 <script>
-    let data = $props();
+    let { data } = $props();
     console.log(data)
 </script>
