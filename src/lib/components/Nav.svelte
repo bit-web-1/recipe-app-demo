@@ -11,5 +11,12 @@
     ul {
         list-style: none;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    li {
+        background-color: aliceblue;
+        border-radius: 2em;
+        padding: 1em 2em;
     }
 </style>
