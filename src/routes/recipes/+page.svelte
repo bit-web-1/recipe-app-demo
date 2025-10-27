@@ -6,12 +6,12 @@
 <table>
     <thead>
         <tr>
-            <td>Recipe Name</td>
-            <td>Prep time</td>
-            <td>Difficulty</td>
-            <td>Servings</td>
-            <td>Cuisine</td>
-            <td>Calories</td>
+            <th>Recipe Name</th>
+            <th>Prep time</th>
+            <th>Difficulty</th>
+            <th>Servings</th>
+            <th>Cuisine</th>
+            <th>Calories</th>
         </tr>
     </thead>
     <tbody>
@@ -27,3 +27,18 @@
         {/each}
     </tbody>
 </table>
+
+<style>
+    table {
+        table-layout: fixed;
+        width: 90%;
+        margin: 10px auto;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        border: 1px solid #999;
+        padding: 0.6em;
+    }
+</style>
