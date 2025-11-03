@@ -45,7 +45,7 @@
   <p>{instruction}</p>
 {/each}
 
-<p class="back"><a href="/recipes">← back to recipes</a></p>
+<p class="back"><a href="/recipes">&xlarr; back to recipes</a></p>
 
 
 <style>
