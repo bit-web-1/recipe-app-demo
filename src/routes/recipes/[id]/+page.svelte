@@ -49,6 +49,8 @@
     dl {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1em;
     }
     dt {
         font-weight: bold;
