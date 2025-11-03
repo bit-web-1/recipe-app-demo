@@ -30,7 +30,7 @@
 
 <style>
   table {
-    table-layout: fixed;
+    /*table-layout: fixed; Don't like this look but it could be handy later */
     width: 100%;
     margin: 10px auto;
     border-collapse: collapse;
