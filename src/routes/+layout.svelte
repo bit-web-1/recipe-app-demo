@@ -25,4 +25,11 @@
 		max-width: 1000px;
 		margin: 0 auto;
 	}
+	:global(a) {
+		color: tomato;
+		text-decoration: aliceblue wavy underline;
+	}
+	:global(a:hover) {
+		text-decoration: lightblue wavy underline;
+	}
 </style>
