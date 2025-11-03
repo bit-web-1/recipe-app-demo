@@ -17,7 +17,7 @@
   <tbody>
     {#each data.recipes.recipes as recipe}
       <tr>
-        <td>{recipe.name}</td>
+        <td><a href="/recipes/{recipe.id}">{recipe.name}</a></td>
         <td>{recipe.prepTimeMinutes}</td>
         <td>{recipe.difficulty}</td>
         <td>{recipe.servings}</td>
