@@ -45,6 +45,9 @@
   <p>{instruction}</p>
 {/each}
 
+<p class="back"><a href="/recipes">← back to recipes</a></p>
+
+
 <style>
     dl {
         display: flex;
@@ -57,5 +60,8 @@
     }
     dd {
         margin-left: 0;
+    }
+    .back {
+        margin-top: 3em;
     }
 </style>
