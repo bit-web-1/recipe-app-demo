@@ -20,9 +20,11 @@
         padding: 0;
     }
     li {
+        min-width: 4em;
         background-color: aliceblue;
         border-radius: 2em;
         padding: 1em 2em;
+        text-align: center;
     }
 
     @media (max-width: 575px) {
