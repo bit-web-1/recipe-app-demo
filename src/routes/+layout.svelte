@@ -8,14 +8,21 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<Nav />
 
-{@render children?.()}
+<main>
+	<Nav />
+	{@render children?.()}
+</main>
 
 <style>
 	:global(body) {
 		/* applies to <body> */
 		margin: 0;
 		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	}
+	main {
+		width: 90%;
+		max-width: 1000px;
+		margin: 0 auto;
 	}
 </style>

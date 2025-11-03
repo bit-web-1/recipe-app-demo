@@ -31,7 +31,7 @@
 <style>
   table {
     table-layout: fixed;
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
     border-collapse: collapse;
   }
