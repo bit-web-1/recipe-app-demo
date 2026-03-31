@@ -1,2 +1,6 @@
+<svelte:head>
+	<title>Contact</title>
+</svelte:head>
+
 <h2>Contact us</h2>
 <p>If you have any questions about this code, please ask your lecturer in class, check the Moodle notes, or even ask your question in the <a href="https://github.com/bit-web-1/recipe-app-demo">GitHub repo</a></p>

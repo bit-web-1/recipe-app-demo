@@ -1,7 +1,10 @@
 <script>
   let { data } = $props();
-  console.log(data);
 </script>
+
+<svelte:head>
+  <title>Recipes</title>
+</svelte:head>
 
 <table>
   <thead>
